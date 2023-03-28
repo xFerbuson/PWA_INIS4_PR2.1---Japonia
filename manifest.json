@@ -6,12 +6,12 @@
     "display": "standalone",
     "orientation": "portrait",
     "scope": "/",
-    "start_url": "/",
-    "icons" : [
+    "start_url": "/xferbuson.github.io/PWA_INIS4_PR2.1---Japonia/",
+    "icons": [
         {
-            "src" : ".img/4728531.png",
-            "size" : "512x512",
-            "type" : "image/png"
+            "src": ".img/4728531.png",
+            "size": "512x512",
+            "type": "image/png"
         }
     ]
 }

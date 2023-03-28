@@ -1,0 +1,17 @@
+{
+    "name": "Witam w świecie kwitnącej wiśni",
+    "short_name": "Wiśnia",
+    "theme_color": "#d792d9",
+    "background_color": "#27689c",
+    "display": "standalone",
+    "orientation": "portrait",
+    "scope": "/",
+    "start_url": "/",
+    "icons" : [
+        {
+            "src" : ".img/4728531.png",
+            "size" : "512x512",
+            "type" : "image/png"
+        }
+    ]
+}

@@ -9,9 +9,9 @@
     "start_url": "/xferbuson.github.io/PWA_INIS4_PR2.1---Japonia/",
     "icons": [
         {
-            "src": "./img/4728531.ico",
+            "src": "./img/4728531.png",
             "size": "512x512",
-            "type": "image/ico"
+            "type": "image/png"
         }
     ]
 }

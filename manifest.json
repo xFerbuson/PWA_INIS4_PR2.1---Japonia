@@ -5,13 +5,13 @@
     "background_color": "#27689c",
     "display": "standalone",
     "orientation": "portrait",
-    "scope": "/PWA_INIS4_PR2.1---Japonia/",
-    "start_url": "/PWA_INIS4_PR2.1---Japonia/",
+    "scope": "/",
+    "start_url": "/xferbuson.github.io/PWA_INIS4_PR2.1---Japonia/",
     "icons": [
         {
-            "src": "./img/4728531.png",
-            "size": "512x512",
-            "type": "image/png"
+            "src": "./img/4728531.ico",
+            "size": "256x256",
+            "type": "image/ico"
         }
     ]
 }

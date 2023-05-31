@@ -57,7 +57,7 @@ header a {
     border-radius: 10px;
 }
 main {
-    background-image: url(./img/candyimage.jpg);
+    background-image: url(./img/candyimage1.png);
     background-repeat: no-repeat; /* brak powtażania */
     background-size: cover; /* tło zostanie proporcjonalnie przeskalowane, aby pokryć całą powierzchnię elementu, zachowując przy tym swoje proporcje */
 }

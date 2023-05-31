@@ -1,12 +1,12 @@
 {
-    "name": "Witam w świecie kwitnącej wiśni",
+    "name": "Witam w świecie słodyczy",
     "short_name": "Wiśnia",
     "theme_color": "#d792d9",
     "background_color": "#27689c",
     "display": "standalone",
     "orientation": "portrait",
     "scope": "/",
-    "start_url": "/xferbuson.github.io/PWA_INIS4_PR2.1---Japonia/",
+    "start_url": "/xmiroshu.github.io/PWA_Sweets/",
     "icons": [
         {
             "src": "./img/4728531.ico",

@@ -1,23 +1,23 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0; /*Ustawia Odstęp zewnętrzny na 0 dla wszystkich elementów na stronie*/
+    padding: 0; /*Ustawia Odstęp wewnętrzny  na 0 dla wszystkich elementów na stronie */
+    box-sizing: border-box; /* Szerokość i wysokość elementu obejmuje także jego marginesy i paddingi. */
 }
 
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth; /* Płynne przewijanie strony do elementów docelowych po kliknięciu na linki wewnętrzne */
 }
 
 .flex_column_container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    display: flex; /* Ustawia na elemencie i jego dzieciach włączony model flexbox, który umożliwia elastyczne układanie elementów w kontenerze */
+    flex-direction: column; /* powoduje, że elementy w kontenerze są układane w kolumnie (pionowo), a nie w rzędzie (poziomo) */
+    justify-content: space-between; /* Ustala, jak elementy są rozmieszczone wzdłuż głównej osi(kolumnie) kontenera. W tym przypadku powoduje równomierne rozłożenie elementów, z odstępem pomiędzy nimi */
+    align-items: center;  /* wyrównanie elementów w poprzek kontenera, czyli w tym przypadku elementy będą wyśrodkowane w osi poziomej. */
 }
 
 .text_container {
-    flex: 1;
-    text-align: center;
+    flex: 1; /* oznacza, że ten element będzie rozciągnięty, aby wypełnić dostępną przestrzeń wzdłuż głównej osi kontenera */
+    text-align: center; /* ustawia wyrównanie tekstu w kontenerze na środek. */
   }
 
  .stylish-block {
@@ -25,9 +25,9 @@ html {
     background-color: #7518a0;
     border: 1px solid #ee0000;
     padding: 10px;
-    border-radius: 5px;
-    font-size: 18px;
-    font-weight: bold;
+    border-radius: 5px; /* Zaokrąglenie narożników */ 
+    font-size: 18px; /* rozmiar czcionki */
+    font-weight: bold; /* ustawia pogrubienie tekstu na wytłuszczenie */
   }
   
 header {
@@ -35,9 +35,9 @@ header {
     height: 60vh;
     padding: 20px;
     background-image: url('./img/sweetsword.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-position: center; /* wyśrodkowanie w pionie i poziomie */
+    background-repeat: no-repeat; /* brak powtażania */
+    background-size: cover; /* tło zostanie proporcjonalnie przeskalowane, aby pokryć całą powierzchnię elementu, zachowując przy tym swoje proporcje */
 }
 
 header a {
@@ -55,7 +55,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 10px; /* odstęp na dolnej krawędzi elementu */
   }
   
   .nice-button {
